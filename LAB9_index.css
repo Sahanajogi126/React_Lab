@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body:has(a[href="/"].active) {
+  background-color: #e3f2fd;
+}
+
+body:has(a[href="/about"].active) {
+  background-color: #e8f5e9;
+}
+
+body:has(a[href="/contact"].active) {
+  background-color: #ffebee;
+}
